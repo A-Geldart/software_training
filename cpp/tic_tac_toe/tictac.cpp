@@ -141,6 +141,9 @@ int main() {
         }else if (result == 2){
             std::cout << "Congrats Player 2!\n";
             break;
+        }else if (gameMoves == 9){
+            std::cout << "DRAW!\n";
+            break;
         }
         
     }
